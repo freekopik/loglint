@@ -1,0 +1,17 @@
+settings:
+  allowed_symbols: ":=" 
+  exclude_files:
+
+
+sensitive_words:
+  password: "user authenticated successfully"
+  token: "token validated"
+  api_key: "api request completed"
+  пароль: "user authenticated successfully"
+
+target_methods:
+  - Info
+  - Error
+  - Debug
+  - Warn
+  - Print
